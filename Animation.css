@@ -1,0 +1,25 @@
+.bajrang {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: shivam;
+  animation-timing-function: ease;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shivam {
+  0% {
+    background-color: blue;width: 300px;
+  }
+  25% {
+    background-color: red;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: aquamarine;
+  }
+}
